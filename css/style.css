@@ -1,0 +1,218 @@
+/* Reset */
+body {
+
+direction: rtl;
+
+}
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+padding: 15px 40px;
+
+background: #4F46E5;
+color: white;
+
+}
+
+.logo {
+
+font-size: 22px;
+font-weight: bold;
+
+}
+
+.nav-links {
+
+display: flex;
+list-style: none;
+gap: 20px;
+
+}
+
+.nav-links a {
+
+text-decoration: none;
+color: white;
+font-weight: bold;
+
+}
+
+.cart {
+
+font-weight: bold;
+
+}
+
+/* Hero */
+
+.hero {
+
+text-align: center;
+padding: 80px 20px;
+
+background: #F9FAFB;
+
+}
+
+.hero h1 {
+
+font-size: 40px;
+margin-bottom: 10px;
+
+}
+
+.hero p {
+
+font-size: 18px;
+margin-bottom: 20px;
+
+}
+
+.btn {
+
+background: #F59E0B;
+padding: 12px 25px;
+
+color: white;
+text-decoration: none;
+
+border-radius: 8px;
+
+}
+
+/* Products */
+
+.featured {
+
+padding: 40px;
+
+text-align: center;
+
+}
+
+.products {
+
+display: grid;
+
+grid-template-columns:
+repeat(3, 1fr);
+
+gap: 25px;
+
+margin-top: 30px;
+
+}
+
+.card {
+
+background: white;
+
+padding: 20px;
+
+border-radius: 12px;
+
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+
+transition: 0.3s;
+
+}
+
+.card:hover {
+
+transform: translateY(-5px);
+
+}
+
+.card img {
+
+width: 100%;
+
+height: 150px;
+
+object-fit: cover;
+
+margin-bottom: 10px;
+
+}
+
+.card button {
+
+background: #4F46E5;
+
+color: white;
+
+border: none;
+
+padding: 10px;
+
+border-radius: 6px;
+
+margin-top: 10px;
+
+cursor: pointer;
+
+}
+/* Contact Form */
+
+.contact-form {
+
+display: flex;
+flex-direction: column;
+
+gap: 15px;
+
+max-width: 500px;
+
+margin: auto;
+margin-top: 30px;
+
+}
+
+.contact-form input,
+.contact-form textarea {
+
+padding: 12px;
+
+border-radius: 8px;
+
+border: 1px solid #ccc;
+
+font-size: 16px;
+
+}
+
+.contact-form textarea {
+
+height: 120px;
+
+resize: none;
+
+}
+
+.contact-form button {
+
+background: #4F46E5;
+
+color: white;
+
+border: none;
+
+padding: 12px;
+
+border-radius: 8px;
+
+cursor: pointer;
+
+}

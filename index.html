@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>متجر القرطاسية</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<!-- Navbar -->
+
+<nav class="navbar">
+
+<div class="logo">
+🛒 متجر القرطاسية
+</div>
+
+<ul class="nav-links">
+
+<li><a href="index.html">الرئيسية</a></li>
+
+<li><a href="products.html">
+المنتجات
+</a></li>
+
+<li><a href="contact.html">
+تواصل معنا
+</a></li>
+
+<li class="cart">
+
+<a href="cart.html">
+
+🛒 السلة
+(<span id="cart-count">0</span>)
+
+</a>
+
+</li>
+</ul>
+</nav>
+
+<!-- Hero -->
+
+<section class="hero">
+
+<h1>
+مرحباً بكم في متجر القرطاسية
+</h1>
+
+<p>
+كل ما تحتاجه للدراسة والمكتب
+</p>
+
+<a href="products.html" class="btn">
+تسوق الآن
+</a>
+
+</section>
+
+<!-- المنتجات المميزة -->
+
+<section class="featured">
+
+<h2>
+منتجات مميزة
+</h2>
+
+<div class="products">
+
+<!-- منتج -->
+
+<div class="card">
+
+<img src="images/pen.jpg">
+
+<h3>قلم أزق</h3>
+
+<p>1500 دينار</p>
+
+<button onclick="addToCart(1)">
+أضف إلى السلة
+</button>
+
+</div>
+
+<!-- منتج -->
+
+<div class="card">
+
+<img src="images/notebook.jpg">
+
+<h3>دفتر</h3>
+
+<p>3000 دينار</p>
+
+<button onclick="addToCart(2)">
+أضف إلى السلة
+</button>
+
+</div>
+
+<!-- منتج -->
+
+<div class="card">
+
+<img src="images/eraser.jpg">
+
+<h3>ممحاة</h3>
+
+<p>500 دينار</p>
+
+<button onclick="addToCart(3)">
+أضف إلى السلة
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- JavaScript -->
+
+<script src="js/products.js"></script>
+<script src="js/cart.js"></script>
+
+</body>
+
+</html>
